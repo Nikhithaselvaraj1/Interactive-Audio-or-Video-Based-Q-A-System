@@ -1,0 +1,31 @@
+Initial Setup for Question based on video
+
+    Step 1: Check Python Installation
+
+            Ensure Python is Installed:
+            First, check if Python is already installed on your system.
+            If Python is not installed, proceed to install it before moving to the next steps.
+
+    Step 2: Download Required Files
+
+            Access and Download the Folder:
+            Download the necessary files from this link: Download Folder.
+            Ensure all files are downloaded correctly.
+
+    Step 3: Setup Virtual Environment
+
+            ->Create and Activate Virtual Environment:
+                *Open your terminal or command prompt.
+                *Navigate to the folder where you downloaded the files.
+                *Run the following command to create a virtual environment:(python3 -m venv POC_env)
+                *Activate the virtual environment: (source ~/Desktop/POC/POC_env/bin/activate)
+
+    Step 4: Install Required Packages
+
+            ->Run the Following Command Once the virtual environment is activated, install the required Python packages by running:
+                python3 -m pip install -r requirements.txt
+
+    Step 5: Run the Application
+
+            ->Execute the main.py Script , Start the application by running:
+                python3 main.py
